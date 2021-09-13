@@ -1,3 +1,3 @@
-pip install datetime
-pip install telethon
-pip install time
+import datetime
+import telethon
+import time
