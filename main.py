@@ -2,10 +2,10 @@ import time
 from datetime import datetime
 from telethon import events,TelegramClient
 
-api_id="7993265"
-api_hash="d5840e8f57453989ff991acb325f56bd"
+api_id=""
+api_hash=""
 
-bot = TelegramClient("session", api_id , api_hash).start(bot_token="1911791658:AAHeU1vPNJPhfKTWfkD1s22bdsatp03YYq0")
+bot = TelegramClient("session", api_id , api_hash).start(bot_token="")
 print("Bot online")
 
 @bot.on(events.NewMessage(pattern="/active"))
